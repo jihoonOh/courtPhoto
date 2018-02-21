@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">요섭스냅</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,6 +57,7 @@
     </nav>
 
     <header class="masthead text-center text-white d-flex">
+      <!--
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -71,16 +72,44 @@
           </div>
         </div>
       </div>
+      -->
     </header>
 
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">당신의 소중한 날 요섭스냅이 함께 하고 싶습니다</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded mb-4">
+              지금은 사진을 인화해서 앨범에 넣어 두고 보는 일이 드물어졌지만.<br/><br/>
+              어릴적 사진 앨범을 펼치면 하루종일 히죽히죽 웃으며<br/><br/>
+              시간 가는줄 몰랐던 때가 있었습니다.<br/><br/>
+              나의 부모님 젊은 시절 모습, 나의 유년기...<br/><br/>
+              스치듯 찍혔던 그 순간이 지금은 두고 보고싶은 장면이 되었습니다.<br/><br/><br/>
+
+              ​
+
+              이후<br/><br/>
+
+              가슴 뛰는 일을 하고 싶어 카메라를 잡았고,<br/><br/>
+
+              파인더 넘어 설레는 많은 분들과 함께<br/><br/>
+
+              더할 나위 없는 감동의 순간을 만났습니다.<br/><br/>
+
+              나에게도 영광스런 자리 .<br/><br/><br/>
+
+
+
+              그날의 울림을 사진 한장에 고스란히 담고자 합니다.<br/><br/><br/>
+
+              ​
+
+              놓치고 싶지 않은 그 시간, 그리고 당신<br/><br/>
+
+              -요섭스냅-</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">상품구성 보기</a>
           </div>
         </div>
       </div>
@@ -100,29 +129,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <h3 class="mb-3">기본형</h3>
+              <p class="text-muted mb-0">5X7(inch) 코팅인화 60장</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <h3 class="mb-3">포토북</h3>
+              <p class="text-muted mb-0">5X7(inch) 코팅인화 60장</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <h3 class="mb-3">화보형</h3>
+              <p class="text-muted mb-0">5X7(inch) 코팅인화 60장</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <h3 class="mb-3">프리미엄</h3>
+              <p class="text-muted mb-0">5X7(inch) 코팅인화 60장</p>
             </div>
           </div>
         </div>
@@ -245,12 +274,12 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>010-5878-5814</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:your-email@your-domain.com">cyber_88@naver.com</a>
             </p>
           </div>
         </div>
