@@ -2,9 +2,9 @@ spring:
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb:failover://172.31.40.205:3306,172.31.40.206:3306,172.31.40.207:3306/AGENT?autoReconnect=true&tcpNoDelay=true&socketTimeout=7000
-    username: ENC(/CiIiPdYmYDJlN7V28mHtA==)
-    password: ENC(Z6W+qTUteUZkIXDXNmHNXAzeRMtyaCAN)
+    url:
+    username:
+    password:
     tomcat:
         default-transaction-isolation: -1
         initial-size: 50
