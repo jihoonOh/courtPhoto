@@ -1,6 +1,7 @@
 package com.courtphoto.cont
 
 import com.courtphoto.domain.Member
+
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.validation.BindingResult
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController
 import javax.persistence.EntityManager
 import javax.persistence.EntityManagerFactory
 import javax.persistence.EntityTransaction
+import org.springframework.web.bind.annotation.GetMapping
 
 /**
  * Created by jihoonOh on 2018. 2. 20..

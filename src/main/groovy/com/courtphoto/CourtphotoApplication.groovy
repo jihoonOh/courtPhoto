@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.web.servlet.view.InternalResourceViewResolver
 
 
+
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration
@@ -21,7 +22,7 @@ class CourtphotoApplication {
 	@Bean
 	public InternalResourceViewResolver setupViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix('/templates/');
+		resolver.setPrefix('/WEB-INF/');
 		resolver.setSuffix('.jsp');
 		return resolver;
 	}
