@@ -22,7 +22,7 @@ class CourtphotoApplication {
 	@Bean
 	public InternalResourceViewResolver setupViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix('/WEB-INF/');
+		resolver.setPrefix('/WEB-INF/views/');
 		resolver.setSuffix('.jsp');
 		return resolver;
 	}
