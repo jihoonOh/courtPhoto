@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Maestro Snap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">요섭스냅</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Maestro</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,6 +50,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#reservation">RESERVATION</a>
             </li>
           </ul>
         </div>
@@ -79,7 +82,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">당신의 소중한 날 요섭스냅이 함께 하고 싶습니다</h2>
+            <h2 class="section-heading text-white">당신의 소중한 날  Maestro가 함께 하고 싶습니다</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
               지금은 사진을 인화해서 앨범에 넣어 두고 보는 일이 드물어졌지만.<br/><br/>
@@ -108,7 +111,7 @@
 
               놓치고 싶지 않은 그 시간, 그리고 당신<br/><br/>
 
-              -요섭스냅-</p>
+              -Maestro-</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">상품구성 보기</a>
           </div>
         </div>
@@ -261,6 +264,30 @@
         <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
     </section>
+    
+       
+    <section id="reservation">
+    <h3>예약문의</h3>
+    <button class="btn btn-primary" style="float : right;" onclick="location.href='/form'">작성</button>
+    <table class="table">
+        <tr>
+            <th>No</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성날짜</th>
+            <th>조회수</th>
+        </tr>
+        <c:forEach var="board" items="${list}">
+        <tr>
+            <td>${board.bno}</td>
+            <td><a href="/board/${board.bno}">${board.subject}</a></td>
+            <td>${board.writer}</td>
+            <td><fmt:formatDate value="${board.reg_date}" pattern="MM/ dd" /></td>
+            <td>${board.hit}</td>
+        </tr>
+        </c:forEach>
+    </table>
+    </section>
 
     <section id="contact">
       <div class="container">
@@ -274,17 +301,18 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>010-5878-5814</p>
+            <p>010-2041-1988</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">cyber_88@naver.com</a>
+              <a href="mailto:your-email@your-domain.com">homecasa@naver.com</a>
             </p>
           </div>
         </div>
       </div>
     </section>
+ 
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

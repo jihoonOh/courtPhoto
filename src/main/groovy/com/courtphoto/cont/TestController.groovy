@@ -46,4 +46,16 @@ class TestController {
     public String index() {
         return "index";
     }
+	
+	@RequestMapping("/boardList")
+	public String boardList() {
+		return "okboard/board";
+	}
+	
+	@RequestMapping("/form")
+	public String form() {
+		return "form";
+	}
+	
+	
 }

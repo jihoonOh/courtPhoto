@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #000000 !important;
 }
 
 .bg-dark {
@@ -165,6 +165,51 @@ img::-moz-selection {
     color: #F05F40;
   }
 }
+
+
+
+header.boardhead {
+  padding-top: 1rem;
+
+}
+
+@media (min-width: 30px) {
+  header.boardhead {
+    height: 6vh;
+    min-height: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.boardhead h1 {
+    font-size: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header.masthead {
   padding-top: 10rem;
